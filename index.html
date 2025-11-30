@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shannon Cosmetics</title>
+  <link rel="stylesheet" href="css/styles.css?v=2" />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Full-page sections: Landing, About, Consultation -->
+
+  <section id="landing" class="section-full" aria-label="Landing">
+    <div class="section-content">
+      <img src="logo_clean.png" alt="Shannon Cosmetics logo" class="logo-banner" />
+      <a href="#consult" class="btn" aria-label="Request consultation">Request Consultation</a>
+    </div>
+  </section>
+
+  <section id="about" class="section-full" aria-label="About Shannon Cosmetics">
+    <div class="section-content">
+      <h2>About Shannon Cosmetics</h2>
+      <p>Based in Cambridge, Shannon Cosmetics specializes in Botox treatments, led by a Harley Street trained
+        practitioner with certifications in
+        cosmetic medicine. We provide discreet, professional services and uphold the highest standards of safety and
+        care.</p>
+      <ul>
+        <li>Certified by Harley Street Injections</li>
+        <li>8+ years of clinical experience</li>
+        <li>Focus on natural-looking results and patient comfort</li>
+        <li>Comprehensive consultations are availble to tailor treatment plans</li>
+        <li>Cambridge-based clinic with convenient appointment scheduling</li>
+        <li>Specialized in Botox cosmetic treatments</li>
+      </ul>
+
+      <h3>Botox Treatment Areas</h3>
+      <p>We offer Botox treatments for the following main areas of the face:</p>
+      <ul class="treatment-areas">
+        <li>Forehead lines</li>
+        <li>Frown lines</li>
+        <li>Crow's feet</li>
+        <li>Brow lift</li>
+        <li>Lip lines (smoker's lines)</li>
+        <li>Jawline contouring</li>
+      </ul>
+
+      <h3>Our Process</h3>
+      <p>Your journey with Shannon Cosmetics begins with a thorough consultation session to understand your needs.
+        Following your initial treatment, we require one regular yearly session to keep perscriptions up to date.</p>
+    </div>
+  </section>
+
+  <section id="pricing" class="section-full" aria-label="Pricing">
+    <div class="section-content">
+      <h2>Pricing</h2>
+      <p>Transparent pricing for our cosmetic treatments with no hidden fees.</p>
+
+      <div class="pricing-card">
+        <h3>Consultation & Perscription Sessions</h3>
+        <div class="price">Free</div>
+        <p>Initial consultation and yearly perscription calls are free of charge</p>
+      </div>
+
+      <div class="pricing-card">
+        <h3>Initial Treatment</h3>
+        <div class="price">£150</div>
+        <p>Includes one injection session with comprehensive consultation</p>
+      </div>
+
+      <div class="pricing-card">
+        <h3>Additional Injections</h3>
+        <div class="price">£50</div>
+        <p>Each additional injection during the same session</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="consult" class="section-full" aria-label="Consultation">
+    <div class="section-content">
+      <h2>Request Consultation</h2>
+      <form class="consult-form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required />
+        </div>
+        <div class="field">
+          <label for="date">Preferred date</label>
+          <input id="date" type="date" name="date" />
+        </div>
+        <div class="field">
+          <label for="additional_info">Any additional information</label>
+          <input id="additional_info" type="text" name="additional_info" placeholder="If none, leave blank" />
+        </div>
+        <div class="field full">
+          <button class="btn" type="submit" aria-label="Submit consultation">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="section-full" aria-label="Footer">
+    <div class="section-content" style="padding:1rem 0; text-align:center;">
+      <p>&copy; 2025 Shannon Cosmetics</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
