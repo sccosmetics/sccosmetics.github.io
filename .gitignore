@@ -1,2 +1,4 @@
-logo.png
+logo*.png
 server.log
+node_modules/
+.env
