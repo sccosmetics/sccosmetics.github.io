@@ -3,10 +3,10 @@ version: '3.8'
 services:
   app:
     build: .
-    ports:
-      - "6001:6001"
     volumes:
       - ./public/available-dates.json:/app/public/available-dates.json:ro
     env_file:
       - .env
     restart: unless-stopped
+    networks:
+      - proxy-net
