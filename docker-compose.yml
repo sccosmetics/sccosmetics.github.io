@@ -1,16 +1,17 @@
 version: '3.8'
 
 services:
-  app:
+  sccosmetics:
     build: .
+    container_name: sccosmetics
     volumes:
       - ./public/available-dates.json:/app/public/available-dates.json:ro
     env_file:
       - .env
     restart: unless-stopped
     networks:
-      - proxy-net
+      - platform_proxy-net
 
 networks:
-  proxy-net:
+  platform_proxy-net:
     external: true
